@@ -1,13 +1,17 @@
 .container {
     display: grid;
-  
-
-/*  Change the values     👇 to experiment */
-  grid-template: repeat(16,40px) / repeat(16,40px);
+    width: 960px;
+    grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+    height: 960px;
 }
 
 .box {
-    border: 2px solid red;
     justify-items : stretch;
     align-items: stretch;
+}
+
+#btn {
+    height: 50px;
+    width: 150px;
+    font-size: medium;
 }
