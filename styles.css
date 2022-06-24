@@ -1,8 +1,8 @@
 .container {
     display: grid;
-    width: 960px;
+    width: 750px;
     grid-template: repeat(20, 1fr) / repeat(20, 1fr);
-    height: 960px;
+    height: 750px;
 }
 
 .box {
